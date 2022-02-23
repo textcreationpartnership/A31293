@@ -1,0 +1,505 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Catalogue of the fellows and other members of the Royal College of Physicians, London printed October 4, 1695 ; with some necessary amendments and advertisements.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1696</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 15 KB of XML-encoded text transcribed from 1 1-bit group-IV TIFF page image.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A31293</idno>
+            <idno type="STC">Wing C1375</idno>
+            <idno type="STC">ESTC R41310</idno>
+            <idno type="EEBO-CITATION">31354905</idno>
+            <idno type="OCLC">ocm 31354905</idno>
+            <idno type="VID">110286</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A31293)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 110286)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1736:9)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The Catalogue of the fellows and other members of the Royal College of Physicians, London printed October 4, 1695 ; with some necessary amendments and advertisements.</title>
+               </titleStmt>
+               <extent>1 sheet ([1] p.).   </extent>
+               <publicationStmt>
+                  <publisher>[s.n.],</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>Printed in the Year, MDCXCVI [1696]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Includes "A short account of the institution and nature of the College of Physicians, London. Publish'd by themselves, 1688" and "Dr. Badger's Queries to the monopoly and pretended College of Physicians."</note>
+                  <note>Reproduction of original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Royal College of Physicians of London --  Directories.</term>
+               <term>Medicine --  England --  London --  Societies, etc.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2008-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2008-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-03</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2011-03</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="lists_of_fellows_and_members_of_the_Royal_College_of_Physicians">
+            <pb facs="tcp:110286:1" rendition="simple:additions"/>
+            <head>THE CATALOGUE OF THE FELLOWS and other MEMBERS of the <hi>Royal College</hi> of <hi>PHYSICIANS, London.</hi> Printed <date>
+                  <hi>October</hi> 4. 1695.</date>
+            </head>
+            <head type="sub">With ſome neceſſary AMENDMENTS and ADVERTISEMENTS.</head>
+            <list>
+               <item>
+                  <label>☿</label> Denotes thoſe who took their Degree by <hi>Mandate,</hi> under ſome Foreign Prince or Embaſſador, <hi>&amp;c.</hi>
+               </item>
+               <item>
+                  <label>♊</label> Signifies thoſe who have taken the Degree of <hi>Doctor</hi> abroad, and are admitted to that Degree in one of our <g ref="char:V">Ʋ</g>niverſities.</item>
+               <item>Thoſe who have this mark * are ſuch Antient Members of the College who had taken their Degree of Doctor before the Year 1659. But We have not given the Title of Doctor, to thoſe younger Members whoſe Names we find not Regiſter'd for that Degree in either of our <g ref="char:V">Ʋ</g>ni<g ref="char:EOLhyphen"/>verſities ſince that Year, becauſe we have no Anthentick, proof of their taking that Degree, neither did the late <hi>Poll-Tax</hi> take notice of them as <hi>Doctors.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Notes thoſe who are entered into the <hi>New Aſſociation,</hi> by Subſcribing Fifty Pounds a-Man to ſtand by the <hi>Preſident</hi> and <hi>Cenſors</hi> for promoting the good of the <hi>College, viz.</hi> Eſtabliſhing a <hi>Monopoly</hi> for the Corruption of the practice of Phyſick, Tending to the De<g ref="char:EOLhyphen"/>ſtruction of Mankind.</item>
+            </list>
+            <list>
+               <head>Fellows.</head>
+               <item>
+                  <label>♂ ♊</label> 
+                  <hi>DR. Samuel Collins,</hi> Preſident.</item>
+               <item>
+                  <label>*</label> Dr. <hi>Walter Charleton.</hi>
+               </item>
+               <item>
+                  <label>*</label> Dr. <hi>George Rogers,</hi>
+               </item>
+               <item>
+                  <label>♂ *</label> Dr. <hi>Thomas Burwell;</hi> Elect. Cenſ.</item>
+               <item>
+                  <label>*</label> Dr. <hi>Peter Barwick.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Sir <hi>Thomas Millington. Kt.</hi> Elect.</item>
+               <item>
+                  <label>♊</label> Dr. <hi>John Lawſon,</hi>Elect.</item>
+               <item>
+                  <label>♂</label> Dr. <hi>Edward Brown,</hi> Treaſurer, Elect.</item>
+               <item>Dr. <hi>Joſias Clark,</hi> Elect.</item>
+               <item>
+                  <label>♂</label> Dr. <hi>Richard Torleſſe,</hi> Elect. Cenſ.</item>
+               <item>
+                  <label>♂ ☿</label> Dr. <hi>Samuel Morris.</hi>
+               </item>
+               <item>Dr. <hi>Thomas Alvey.</hi>
+               </item>
+               <item>
+                  <label>♂ ☿</label> Mr. <hi>Ed. Hulſe,</hi> Elect. alias Dr.<hi>Halſius.</hi>
+               </item>
+               <item>
+                  <label>♂ ☿</label> Dr. <hi>Richard Morton.</hi>
+               </item>
+               <item>
+                  <label>♂ ☿</label> Dr. <hi>Charles Goodall.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Dr. <hi>Robert Brady,</hi>Prof. Med. Cant.</item>
+               <item>Dr. <hi>Phineas Fowke.</hi>
+               </item>
+               <item>
+                  <label>♂ ♊</label> Dr. <hi>Walter Harris.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Dr. <hi>William Briggs.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Dr. <hi>Walter Mills.</hi>
+               </item>
+               <item>Dr. <hi>Edward Tyſon.</hi>
+               </item>
+               <item>
+                  <label>☿</label> Dr. <hi>Charles Fraiſer.</hi>
+               </item>
+               <item>
+                  <label>♂ ♊ ☿</label> Dr. <hi>Frederick Slare.</hi> Palatino-Germ.</item>
+               <item>Dr. <hi>Richard Darnelli.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Dr. <hi>John Bateman.</hi>
+               </item>
+               <item>Mr. <hi>William Johnſton.</hi>
+               </item>
+               <item>
+                  <label>♂ ♊ ☿</label> Dr. <hi>William Dawes, </hi>Cenſ.</item>
+               <item>
+                  <label>♂ ☿</label> Dr. <hi>Thomas Gill.</hi> Cenſ.Reg.</item>
+               <item>
+                  <label>♂ ☿</label> Dr. <hi>Richard Robinſon.</hi>
+               </item>
+               <item>
+                  <label>☿</label> Dr. <hi>Lancelot Harriſon.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Dr. <hi>Martin Liſter.</hi>
+               </item>
+               <item>Dr. <hi>Robert Pit.</hi>
+               </item>
+               <item>Dr. <hi>Richard Field.</hi>
+               </item>
+               <item>
+                  <label>*</label>Dr. <hi>Edmund Dickenſon.</hi>
+               </item>
+               <item>Mr. <hi>William Stokeham.</hi>
+               </item>
+               <item>
+                  <label>♂ ☿</label> Sir <hi>Edmund King,</hi> Kt.</item>
+               <item>
+                  <label>☿</label> Dr. <hi>Francis Bernard.</hi>
+               </item>
+               <item>Mr. <hi>Chriſtop. Love-Morley.</hi>
+               </item>
+               <item>Mr. <hi>Edward Baynard.</hi>
+               </item>
+               <item>
+                  <label>♂ ☿</label> Dr. <hi>Theodore Colladon.</hi>
+               </item>
+               <item>Mr. <hi>Richard Blackburne.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Mr. <hi>Chriſtian Harrel.</hi>
+               </item>
+               <item>Dr. <hi>Simon Welman.</hi>
+               </item>
+               <item>Mr. <hi>George How.</hi>
+               </item>
+               <item>Mr. <hi>Nathaniel Johnſton.</hi>
+               </item>
+               <item>Dr. <hi>Robert Peirce.</hi>
+               </item>
+               <item>Mr. <hi>Robert Gray.</hi>
+               </item>
+               <item>
+                  <label>♂ ♊</label> Dr. <hi>Richard Smith.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Mr. <hi>Joſhua de Feure.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Mr. <hi>Thomas Walſh.</hi>
+               </item>
+               <item>Dr. <hi>John Ratcliff.</hi>
+               </item>
+               <item>
+                  <label>☿</label> Dr. <hi>John Harriſon.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Mr. <hi>Hans Sloane.</hi>
+               </item>
+               <item>Mr. <hi>Richard Blackmore.</hi>
+               </item>
+               <item>Dr. <hi>Tancred Robinſon.</hi>
+               </item>
+               <item>Dr. <hi>Richard Carr.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Mr. <hi>John Hutton.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Mr. <hi>James Welwood.</hi>
+               </item>
+               <item>Dr. <hi>Peter Gelſthorp.</hi>
+               </item>
+               <item>Dr. <hi>William Muſgrave,</hi>
+               </item>
+               <item>
+                  <label>♊</label> Dr. <hi>Humphrey Ridley.</hi>
+               </item>
+               <item>Dr. <hi>William Gibbons.</hi>
+               </item>
+               <item>Dr. <hi>William Gould.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Dr. <hi>John Hawys.</hi>
+               </item>
+               <item>Dr. <hi>Robert Conny.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Dr. <hi>Samuel Garth.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Dr. <hi>Barnham Soame.</hi>
+               </item>
+               <item>
+                  <label>☿</label> Dr. <hi>Hugh Chamberlen.</hi>
+               </item>
+               <item>Dr. <hi>William Cole.</hi>
+               </item>
+               <item>Dr. <hi>Salusbury Cade.</hi>
+               </item>
+            </list>
+            <list>
+               <head>CANDIDATES.</head>
+               <item>Dr. <hi>John Nicholſon.</hi>
+               </item>
+               <item>Dr. <hi>Thomas Hoy.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Dr. <hi>Thomas Sutton.</hi>
+               </item>
+               <item>
+                  <label>♊</label> Dr. <hi>Joſeph Gaylard.</hi>
+               </item>
+               <item>Dr. <hi>Richard Adams.</hi>
+               </item>
+               <item>Dr. <hi>Humphrey Brook.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Dr. <hi>William Coward.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Dr. <hi>Denton Nicholas.</hi>
+               </item>
+            </list>
+            <list>
+               <head>HONORARY-FELLOWS.</head>
+               <item>SIr <hi>William Langham.</hi>
+               </item>
+               <item>
+                  <label>*</label>Dr. <hi>Robert Fielding.</hi>
+               </item>
+               <item>
+                  <label>*</label>Dr. <hi>John Windebank.</hi>
+               </item>
+               <item>
+                  <label>*</label>Dr. <hi>John Yardley.</hi>
+               </item>
+               <item>
+                  <label>*</label>Dr. <hi>Thomas More.</hi>
+               </item>
+               <item>
+                  <label>*</label>Dr. <hi>William Burnet.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Mr. <hi>Henry Sampſon.</hi>
+               </item>
+               <item>
+                  <label>☿</label> Dr. <hi>Daniel Cox.</hi>
+               </item>
+               <item>Mr. <hi>Nehemiah Grew.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Mr. <hi>Thomas Gibſon.</hi>
+               </item>
+               <item>
+                  <label>☿</label> Dr. <hi>Peter Alder.</hi>
+               </item>
+            </list>
+            <list>
+               <head>LICENTIATES.</head>
+               <item>Mr. <hi>John Feak.</hi>
+               </item>
+               <item>Mr. <hi>Praiſe Watſon.</hi>
+               </item>
+               <item>Mr. <hi>Iſaac Chauncy.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Mr. <hi>Chriſtopher Crell.</hi>
+               </item>
+               <item>Mr. <hi>John Martin.</hi>
+               </item>
+               <item>Mr. <hi>Philip Guide.</hi>
+               </item>
+               <item>Mr. <hi>John Groenvelt.</hi>
+               </item>
+               <item>Mr. <hi>Joſhua Palmer.</hi>
+               </item>
+               <item>Mr. <hi>Henry Morelli.</hi>
+               </item>
+               <item>Mr. <hi>John Peche.</hi>
+               </item>
+               <item>Mr. <hi>Thomas Hobbs.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Mr. <hi>William Sydenham.</hi>
+               </item>
+               <item>
+                  <label>☿</label> Dr. <hi>John Jones.</hi>
+               </item>
+               <item>Mr. <hi>Charles Nichols.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Mr. <hi>Clopton Havers.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Mr. <hi>David Hamilton.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Mr. <hi>John Deffray.</hi>
+               </item>
+               <item>Mr. <hi>William Grimbalſton.</hi>
+               </item>
+               <item>Mr. <hi>Caleb Coatſworth.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Mr. <hi>Sebaſtian le Feure:</hi>
+               </item>
+               <item>Mr. <hi>John Tivil.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Mr. <hi>Francis Upton.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Mr. <hi>Thomas Botterell.</hi>
+               </item>
+               <item>Mr. <hi>James Maucleer.</hi>
+               </item>
+               <item>Mr. <hi>John Charles.</hi>
+               </item>
+               <item>Mr. <hi>Philip Roſe.</hi>
+               </item>
+               <item>Mr. <hi>Thomas Rolfe</hi>
+               </item>
+               <item>Mr. <hi>William Oliver.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Mr. <hi>Oliver Horſeman.</hi>
+               </item>
+               <item>Mr. <hi>Ralph Hickes.</hi>
+               </item>
+               <item>Mr. <hi>Thomas Walker.</hi>
+               </item>
+               <item>
+                  <label>☿</label> 
+                  <hi>Dr. Judocus Crull.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Mr. <hi>Peter Silveſtre.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Mr. <hi>Charles Morton.</hi>
+               </item>
+               <item>Mr. <hi>George Fleming.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Dr. <hi>Stephen Hunt.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Mr. <hi>William Cockburn.</hi>
+               </item>
+               <item>Mr. <hi>Thomas Turberville.</hi>
+               </item>
+               <item>Mr. <hi>Edmund Devis.</hi>
+               </item>
+               <item>
+                  <label>♂</label> Mr. <hi>John Crichton.</hi>
+               </item>
+            </list>
+         </div>
+         <div type="description">
+            <head>A ſhort Account of the Inſtitution and Nature, of the College of Phy<g ref="char:EOLhyphen"/>ſicians, <hi>London.</hi>
+            </head>
+            <head type="sub">Publiſh'd by themſelves, 1688.</head>
+            <p n="1">
+               <label>1. The FELLOWS</label>
+ARE Doctors of Phyſick, choſen out of the Candidates, who have been always limited to a certain Number, and are now confined to the Number of Fourſcore, by His preſent Majeſty's (King <hi>James's</hi>) Graciouses Charter: Out of theſe are choſen the Preſident, Elects, Cenſors, and other Officers of the College, who, with the reſt of the Fellows, are ſolely con<g ref="char:EOLhyphen"/>cerned in the Governing Part of the College, and have a Voice in the making and reſcind<g ref="char:EOLhyphen"/>ing any Statutes, Orders, or By-Laws, relating to Phyſick and the Practice thereof.</p>
+            <p n="2">
+               <label>2. CANDIDATES</label>
+Muſt be Doctors in Phyſick, admitted to that Degree in one of our Own Univerſities, muſt not be Foreigners, and ought to have practiſed Phyſick Four Years before they are admitted into that Order; out of theſe, as the Seminary, the Fellowſhips are filled up, as they become vacant, in a perpetual Succeſſion.</p>
+            <p n="3">
+               <label>3. HONORARY FELLOWS</label>
+Are ſuch Doctors in Phyſick, as by reaſon of their being Foreigners, or having taken their Degrees in ſome Univerſity beyond the Seas, are not incorporated into either of Ours; or, for ſome other reaſon (having not been Candidates) are not of the Number of thoſe who have Votes in the Affairs of the College.</p>
+            <p n="4">
+               <label>4. LICENTIATES</label>
+Are ſuch other Perſons Skilled in Phyſick, who by reaſon of their being Foreigners, or their not being admitted Doctors in one of Our Univerſities. or for their not being Eminently Learned, or by reaſon of their too great Youth, or ſuch like Cauſes, are not capable to be Elected into the Number of the Candidates; yet may, notwithſtanding, be ſerviceable to the Publick, in taking Care of the Health of the King's Subjects, at leaſt in ſome particular Diſeaſes.</p>
+            <p>NOW, of all theſe ſeveral Ranks and Degrees of Practiſers in Phyſick, none of them is confined to any certain Number but the Fellows and Candidates; ſo that the Reſt being wholly unlimited; no Perſon can be excluded out of the College, or debarred from Practice, but ſuch as are ſo wholly illiterate and unskilful, that they dare not adventure to ſubmit themſelves to the Examination and Judgment of the Preſident and Cenſors of the College, either as to the Goodneſs of their Medicines, or their own Skill in all, or any Part of Phyſick; though the Preſident and Cenſors be Men ſtrictly ſworn to do juſtice to all Perſons, who ſhall preſent themſelves, or their Medicines, to their Scrutiny and Examination.</p>
+            <p>From hence it manifeſtly follows, That the College of Phyſicians is very far from being a Monopoly, ſince it cannot reject any of the King's Subjects, who are duly qualified for the Exercuſe of all, or any Part of Phyſick.</p>
+         </div>
+         <div type="list_of_questions">
+            <head>Dr. <hi>BADGER's</hi> Q<g ref="char:V">Ʋ</g>ERIES to the <hi>Monopoly</hi> and <hi>Pretended College</hi> of <hi>PHYSICIANS.</hi>
+            </head>
+            <list>
+               <item>I. WHether this preſent Medley of Phyſicians, who call themſelves the College, hath not juſtly forfeited their Charter, having notoriouſly violated the Fundamental Statutes of their own Society? And whether the late King <hi>James's</hi> Gracious Charter, as they call it, by Virtue whereof they have hitherto acted, even under this Government, could if Recorded, juſtifie their Illegal and mad Proceedings?</item>
+               <item>II. Whether thoſe who have taken the Degree of Doctor in foreign <g ref="char:V">Ʋ</g>niverſities, but were never Incorporated into one of ours, are capable of being Candidates by their Statute of Candi<g ref="char:EOLhyphen"/>dates, <hi>Chap.</hi> 11. P. 78. and whether thoſe who are incapable of being Candidates can be choſen Fellows, <hi>Chap.</hi> 12. p. 93?</item>
+               <item>III. Whether any, who are once entred into Holy Orders, can be admitted into the College of Phyſicians by their Statute of Fellows, <hi>Chap.</hi> 12. p. 100. And whether it be decent for a <hi>Preacher to meddle with Womens Buſineſſes and Diſeaſes,</hi> ibid. p. 99. And whether it be a good Plea for a <hi>Sacrilegious Deſerter</hi> of the Miniſterial Function, being admitted into the College, to alledge, <hi>That Presbyterian Orders are no Orders?</hi>
+               </item>
+               <item>IV. Whether the <hi>Sacrilegious Deſerters</hi> of the Miniſtry, and others, who are not qualified to be Candidates, or Fellows of the College, according to the Statutes, are fit to be intruſted with the Power of governing and enacting New Statutes to exclude others, who are duly qualified; and ſecure themſelves in their <g ref="char:V">Ʋ</g>ſurpation, to the Prejudice of our <g ref="char:V">Ʋ</g>niverſities, and the manifeſt Corruption of the Practice of Phyſick, tending to the Deſtruction of Mankind?</item>
+               <item>V. Whether it be not contrary to the Oath of the Preſident, to admit thoſe into the College, who have not taken the Degree of Doctor in one of our <g ref="char:V">Ʋ</g>niverſities; or, who have formerly entred into Holy Orders, ſince this Admiſſion is plainly contrary to the Statutes which he is ſworn to obſerve, <hi>Ch.</hi> 2. of the Preſident, p. 15?</item>
+               <item>VI. Whether the Preſident and Cenſors, <hi>who are ſtrictly ſworn to do Juſtice to all Men,</hi> be not manifeſtly guilty both of Injuſtice and Perjury, in denying Admiſſion into the College to thoſe who are duly qualified, according to the Laws of the Land and their own Statutes? And whether from hence it does not plainly follow (according to their own way of arguing, in the ſaid <hi>ſhort Ac<g ref="char:EOLhyphen"/>count of their Inſtitution</hi>) That this pretended <hi>College of Phyſicians is</hi> a <hi>Monopoly,</hi> ſince <hi>they reject the King's Subjects, who are duly qualified for the Practice of Phyſick?</hi>
+               </item>
+               <item>VII. Whether their dealing with Dr. <hi>John Badger</hi> be not a plain Inſtance of Injuſtice and Per<g ref="char:EOLhyphen"/>jury; who being examined (in 83.) three ſeveral times in Latin, according to their own Statutes, <hi>Chap.</hi> XVI. p. 119. and having ſince Regularly commenced Doctor of Phyſick in 1687, according to their Direction, and upon their ſolemn promiſe of granting his Admiſſion into the College was ne<g ref="char:EOLhyphen"/>vertheleſs rejected and denied Admiſſion, though the Preſident, at the ſame time, did acknowledge that there was all the Reaſon and Juſtice in the World for it? And whether their Statute of Ex<g ref="char:EOLhyphen"/>cluſion (New-Stat. <hi>No.</hi> 16) made three Months after he preſented himſelf to them for his Admiſſion, was not contrived on purpoſe againſt him, contrary to their Faith and Promiſe?</item>
+            </list>
+         </div>
+      </body>
+      <back>
+         <div type="publishers_advertisement">
+            <p>The Statutes of the College of <hi>Phyſicians, London,</hi> in <hi>Latin</hi> and <hi>Engliſh,</hi> are to be Sold at the <hi>Printing-Preſs,</hi> under the <hi>Royal-Exchange</hi> in <hi>Cornhill.</hi>
+            </p>
+         </div>
+         <div type="colophon">
+            <p>
+               <hi>LONDON,</hi> Printed in the Year, MDCXCVI.</p>
+         </div>
+      </back>
+   </text>
+</TEI>
